@@ -46,26 +46,6 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=Subharjun&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="Subharjun"
-            loading="lazy"
-          />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=Subharjun&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
-            alt="Subharjun"
-            loading="lazy"
-          />
-        </ItemLayout>
-
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
@@ -75,20 +55,36 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src="https://github-readme-streak-stats.herokuapp.com?user=Subharjun&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
-            alt="Subharjun"
-            loading="lazy"
-          />
+        <ItemLayout
+          className={"col-span-full sm:col-span-6 md:col-span-4 text-accent"}
+        >
+          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            JavaScript{" "}
+            <sub className="font-semibold text-base">primary language</sub>
+          </p>
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full md:col-span-8 text-accent"}>
+          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            Full-Stack{" "}
+            <sub className="font-semibold text-base">development focus</sub>
+          </p>
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full md:col-span-6 text-accent"}>
+          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            AI/ML{" "}
+            <sub className="font-semibold text-base">
+              integration specialist
+            </sub>
+          </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
             src="https://leetcard.jacoblin.cool/Subharjun28?theme=dark&font=Nunito&ext=heatmap"
-            alt="Subharjun LeetCode Stats"
+            alt="LeetCode Stats"
             loading="lazy"
           />
         </ItemLayout>
@@ -98,3 +94,4 @@ const AboutDetails = () => {
 };
 
 export default AboutDetails;
+
