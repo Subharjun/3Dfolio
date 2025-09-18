@@ -61,6 +61,14 @@ export const projectsData = [
     demoLink: "https://drive.google.com/file/d/123pDKF4YTsbBU1cInzmTkQrApinC_Owk/view?usp=drivesdk",
     tools: ["Flutter", "WebView", "Android", "Dart"],
     thumbnail: "/images/villageAPK.jpg",
+  },{
+    id: 6,
+    name: "Career_Mentor APK Version",
+    description: "Mobile application version of Career_Mentor built using Flutter WebView. This Android app provides the same AI-powered Career Guidance features in a native mobile experience.",
+    date: "2024-07-15",
+    demoLink: "https://drive.google.com/file/d/15aTeznG5p8j39x7w0_XrsRfRfjis1-g3/view?usp=drivesdk",
+    tools: ["Flutter", "WebView", "Android", "Dart"],
+    thumbnail: "/images/career.jpg",
   },
 ];
 
