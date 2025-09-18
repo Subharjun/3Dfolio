@@ -40,7 +40,7 @@ export const projectsData = [
     name: "AI Career Mentor Guide",
     description: "An AI powered app with ML integration, that helps students and aspirants to determine their career paths, resume analysis, Video feed to learn topics real quick, Networking and event updates and a customized chatbot to interact with",
     date: "2024-08-10",
-    demoLink: "https://career-nav-ai-ml.onrender.com",
+    demoLink: "https://career-mentor-subh28.onrender.com",
     tools: ["Python", "Streamlit", "ML", "API"],
     thumbnail: "/images/career.jpg",
   },
