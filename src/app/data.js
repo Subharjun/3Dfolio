@@ -68,7 +68,7 @@ export const projectsData = [
     date: "2024-07-15",
     demoLink: "https://drive.google.com/file/d/15aTeznG5p8j39x7w0_XrsRfRfjis1-g3/view?usp=drivesdk",
     tools: ["Flutter", "WebView", "Android", "Dart"],
-    thumbnail: "/images/career.jpg",
+    thumbnail: "/images/career_apk.jpg",
   },
 ];
 
